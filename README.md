@@ -88,8 +88,14 @@ Projeto: https://github.com/Felipekarpischin/central-suporte-tecnico
 
 ## Interface web demonstrável
 
-A pasta `web/` contém uma interface responsiva e funcional para demonstrar o fluxo de abertura e consulta de chamados no navegador. Ela utiliza localStorage apenas no modo demonstração, sem alegar persistência em produção.
+A pasta web/ contém uma interface responsiva e funcional para demonstrar abertura e consulta de chamados no navegador. Ela utiliza localStorage somente no modo demonstração, sem alegar persistência em produção.
 
-Abra `web/index.html` diretamente no navegador para testar o painel, registrar chamados e filtrar por status. A API SQLite permanece disponível separadamente em `app.py`.
+Abra web/index.html para testar o painel, registrar chamados e filtrar por status.
 
-Link público: https://github.com/Felipekarpischin/central-suporte-tecnico/blob/main/web/index.html
+## Portfólio complementar
+
+- GitHub e projeto funcional: https://github.com/Felipekarpischin/central-suporte-tecnico
+- Guia técnico: https://github.com/Felipekarpischin/central-suporte-tecnico/blob/main/docs/GUIA-MOODLE-VUE-DOCKER-FASTAPI.md
+- Blog editorial Game Vault 47: https://gamevault47.blogspot.com/
+
+O Blogger demonstra produção de conteúdo, documentação e comunicação escrita. O blog é focado em games e, por isso, é apresentado como portfólio complementar, não como experiência profissional de desenvolvimento web, Moodle ou suporte EaD.
