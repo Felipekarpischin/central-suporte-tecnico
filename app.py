@@ -128,3 +128,6 @@ if __name__ == "__main__":
     print("Support Desk API: http://localhost:8000")
     ThreadingHTTPServer(("localhost", 8000), ServiceDeskHandler).serve_forever()
  
+
+# Alias mantido para compatibilidade com testes e integrações existentes.
+handler = ServiceDeskHandler
