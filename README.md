@@ -85,3 +85,11 @@ Felipe Karpischin Pinto
 
 GitHub: https://github.com/Felipekarpischin
 Projeto: https://github.com/Felipekarpischin/central-suporte-tecnico
+
+## Interface web demonstrável
+
+A pasta `web/` contém uma interface responsiva e funcional para demonstrar o fluxo de abertura e consulta de chamados no navegador. Ela utiliza localStorage apenas no modo demonstração, sem alegar persistência em produção.
+
+Abra `web/index.html` diretamente no navegador para testar o painel, registrar chamados e filtrar por status. A API SQLite permanece disponível separadamente em `app.py`.
+
+Link público: https://github.com/Felipekarpischin/central-suporte-tecnico/blob/main/web/index.html
