@@ -1,31 +1,94 @@
 # Central de Suporte Técnico
 
-Projeto de portfólio para demonstrar organização de chamados, triagem, prioridades e indicadores básicos de Service Desk.
+Projeto de portfólio desenvolvido para demonstrar uma API REST em Python voltada à organização, triagem e acompanhamento de chamados de Service Desk.
+
+> Projeto prático de portfólio. Não representa experiência profissional em empresa.
+
+## Objetivo
+
+Simular uma central de atendimento técnico com foco em registro de solicitações, priorização, atualização de status e acompanhamento de indicadores operacionais.
 
 ## Funcionalidades
 
 - Criar chamados com solicitante, categoria, descrição e prioridade.
-- Atualizar status e responsável.
-- Filtrar por status e prioridade.
-- Exibir indicadores operacionais.
-- Validar dados e responder em JSON.
+- Atualizar status e responsável pelo atendimento.
+- Filtrar chamados por status e prioridade.
+- Exibir indicadores operacionais básicos.
+- Validar dados de entrada e responder em JSON.
+- Organizar o código em uma estrutura simples, legível e reproduzível.
 
-## Tecnologias
+## Tecnologias e conceitos demonstrados
 
-Python 3.11+ e biblioteca padrão: http.server, json, dataclasses e unittest.
+- Python 3.11+
+- API REST e comunicação HTTP
+- JSON
+- Modelagem com dataclasses
+- Validação de dados
+- Testes automatizados com unittest
+- Organização de chamados e lógica de Service Desk
+- Documentação técnica e instruções de execução
 
-## Execução
+## Estrutura do projeto
 
-    python app.py
+- app.py: implementação da API e regras principais.
+- tests/: testes automatizados.
+- README.md: documentação, execução e apresentação do projeto.
 
-API em http://localhost:8000.
+## Execução local
+
+```bash
+python app.py
+```
+
+A API ficará disponível em:
+
+http://localhost:8000
 
 ## Testes
 
-    python -m unittest discover -s tests -v
+```bash
+python -m unittest discover -s tests -v
+```
+
+## Exemplos de uso
+
+A API pode ser utilizada para criar, consultar, filtrar e atualizar chamados, permitindo demonstrar um fluxo básico de atendimento técnico.
+
+Para explorar os endpoints, execute a aplicação localmente e utilize um navegador, cURL, Postman ou outra ferramenta compatível com HTTP.
+
+## Qualidade e segurança
+
+- Validação de dados antes do processamento.
+- Respostas estruturadas em JSON.
+- Projeto sem credenciais ou dados pessoais reais.
+- Execução local para facilitar testes e reprodução.
+- Escopo reduzido para manter o código compreensível e auditável.
+
+## Limitações atuais
+
+Este projeto não utiliza banco de dados persistente, autenticação de usuários ou implantação em produção. Essas limitações são intencionais nesta versão de portfólio e estão registradas para orientar a evolução futura.
+
+## Próximas melhorias
+
+- Persistência com SQLite ou PostgreSQL.
+- Autenticação e autorização de usuários.
+- Documentação OpenAPI/Swagger.
+- Containerização com Docker.
+- Interface web responsiva.
+- Integração com indicadores de SLA.
+- Implantação em ambiente de demonstração.
+
+## Relação com minha formação
+
+O projeto conecta conhecimentos de Análise e Desenvolvimento de Sistemas, programação, APIs, bancos de dados, testes e suporte técnico. Também demonstra capacidade de documentar uma solução e explicar suas decisões técnicas.
 
 ## Como apresentar no currículo
 
-Desenvolvimento de API REST em Python para registro, triagem e acompanhamento de chamados de Service Desk, com validação, filtros, indicadores e testes automatizados.
+**Projeto de portfólio — Central de Suporte Técnico:** desenvolvimento de API REST em Python para registro, triagem e acompanhamento de chamados de Service Desk, com validação, filtros, indicadores operacionais, testes automatizados e documentação técnica.
 
-Este é um projeto prático de portfólio, não uma experiência profissional em empresa.
+## Autor
+
+Felipe Karpischin Pinto
+
+- GitHub: https://github.com/Felipekarpischin
+- Projeto: https://github.com/Felipekarpischin/central-suporte-tecnico
